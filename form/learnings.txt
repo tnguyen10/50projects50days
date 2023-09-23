@@ -1,0 +1,12 @@
+flexbox: content adjusting
+margin: auto, to align at the end
+folder structure
+last child
+
+To learn
+- animation on clicking form
+- hover change background color
+- slider photo things
+- template html
+- web form
+- box-sizing?
