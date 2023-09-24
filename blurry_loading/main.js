@@ -31,4 +31,4 @@ window.onload = function loading() {
 
 // SUMMARY
 // - learnt about setInterval function, backdropFilter, and scaling ranges of number
-// - if just use filter: blur then there's white border around, og hides it by moving image around
+// - if just use filter: blur then there's white border around, og hides it by increasing the vw and vh
