@@ -1,0 +1,39 @@
+:root {}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #efedd6;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.content {
+    background-color: steelblue;
+    color: #fff;
+    padding: 5rem 7rem;
+    border-radius: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.hide {
+    transform: translateX(100vw); 
+}
+
+.hide:nth-of-type(even) {
+    transform: translateX(-100vw); 
+}
